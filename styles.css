@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  background-color: #d6e2f0;
+  font-size: 1.6rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* h2, p {
+  text-align: center;
+} */
+
+h2 {
+  color: #1f3251;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+p {
+  color: #68778d;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  padding: 5rem;
+}
+
+.card {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #ffffff;
+  padding: 1.5rem 1.5rem 3rem;
+  border-radius: 8px;
+}
+
+.content {
+  text-align: center;
+  padding: 0 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
